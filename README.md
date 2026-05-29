@@ -1,91 +1,191 @@
-# 🎮 Tic Tac Toe — Java Swing Edition
+# 🎮 Tic Tac Toe - Advanced Java Swing Game
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge" alt="Swing">
-  <img src="https://img.shields.io/badge/Platform-Desktop-green?style=for-the-badge" alt="Platform">
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
-</p>
-
-<p align="center">
-  A modern, feature-rich <b>Tic Tac Toe</b> game built with <b>Java Swing</b> — complete with user accounts, an unbeatable AI, a shop system, achievements, leaderboards, sound effects, and a smooth animated UI.
-</p>
+An advanced and fully interactive **Tic Tac Toe Game** built using **Java Swing GUI**.
+This project is designed with a modern animated user interface, multiplayer support, AI gameplay, authentication system, achievements, sound effects, and many additional features to provide a professional gaming experience.
 
 ---
 
-## �the Table of Contents
+# 📌 Features
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Screenshots](#-screenshots)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [How to Play](#-how-to-play)
-- [Game Modes & Difficulty](#-game-modes--difficulty)
-- [Roadmap](#-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Author](#-author)
+## 🔐 Authentication System
 
----
+* User Registration
+* User Login
+* Secure User Management
+* User Profile System
 
-## 📖 Overview
+## 🎨 Modern GUI
 
-**Tic Tac Toe — Java Swing Edition** is more than just the classic 3×3 grid game.  
-It is a full-fledged desktop application featuring **user authentication, persistent profiles, in-game currency, a shop, achievements, and an unbeatable AI opponent** powered by the Minimax algorithm.
+* Java Swing Based Interface
+* Animated UI Components
+* Interactive Buttons and Panels
+* Smooth User Experience
 
-This project demonstrates clean **Object-Oriented Programming (OOP)** principles, GUI development with **Java Swing**, file-based data persistence, and engaging animated user interfaces — making it an ideal showcase project for learning desktop application development in Java.
+## 🎮 Gameplay Features
 
----
+* 3×3 Clickable Game Grid
+* Two Player Mode (X/O)
+* Multiplayer Support
+* AI Player Mode
+* Easy, Medium, and Hard Difficulty Levels
+* Winner Detection
+* Draw Detection
+* Restart Game Option
+* Popup Result Messages
 
-## ✨ Features
+## 🏆 Advanced Systems
 
-| # | Feature | Description |
-|---|---------|-------------|
-| 🖥️ | **GUI-Based Game** | Built entirely with Java Swing for a smooth desktop experience |
-| 📝 | **Registration** | Create a new account to track your progress |
-| 🔐 | **Login System** | Secure login with saved credentials |
-| 🔲 | **3×3 Clickable Grid** | Intuitive, responsive button-based game board |
-| 👥 | **Two Player Mode** | Play locally with a friend (X vs O) |
-| 🤖 | **AI Player Mode** | Challenge the computer opponent |
-| 🎚️ | **Difficulty Levels** | Easy, Medium & Hard (Hard uses unbeatable Minimax AI) |
-| 🏆 | **Winner & Draw Detection** | Automatic detection of wins and ties |
-| 💬 | **Popup Result Messages** | Clear win/draw notifications |
-| 🔄 | **Restart Button** | Instantly reset and replay |
-| 📊 | **Scoreboard** | Live session score tracking |
-| 🎖️ | **Achievement / Badge System** | Unlock badges as you progress |
-| 🛒 | **Shop / Buy System** | Spend coins on board themes, icons & avatars |
-| 🔊 | **Sound Effects** | Audio for clicks, wins, draws & game start |
-| 👤 | **User Profile System** | View stats, badges, and owned items |
-| 💾 | **Save & Continue** | Progress is automatically saved |
-| 🥇 | **Leaderboard** | Compete for the top rank globally |
-| 🎨 | **Animated UI** | Gradient backgrounds & smooth animations |
+* Scoreboard System
+* Achievement / Badge System
+* Leaderboard
+* Save & Continue Feature
 
----
+## 🛒 Customization System
 
-## 📸 Screenshots
+* Shop / Buy System
+* Purchase Board Themes
+* Unlock Icons
+* Unlock User Avatars
 
-> _Add your game screenshots here_
+## 🔊 Audio Features
 
-| Login Screen | Main Menu | Game Board |
-|:---:|:---:|:---:|
-| ![Login](docs/login.png) | ![Menu](docs/menu.png) | ![Game](docs/game.png) |
-
-| Shop | Profile | Leaderboard |
-|:---:|:---:|:---:|
-| ![Shop](docs/shop.png) | ![Profile](docs/profile.png) | ![Leaderboard](docs/leaderboard.png) |
+* Button Click Sound
+* Game Start Sound
+* Win Sound Effect
+* Draw Sound Effect
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Technologies Used
 
-- **Language:** Java (JDK 8+)
-- **GUI Framework:** Java Swing & AWT
-- **Audio:** `javax.sound.sampled` (WAV files)
-- **Data Persistence:** Java Serialization (`ObjectOutputStream` / `ObjectInputStream`)
-- **AI Algorithm:** Minimax (for unbeatable Hard mode)
+* **Java**
+* **Java Swing**
+* **AWT**
+* **Object-Oriented Programming (OOP)**
+* **File Handling**
+* **Event Handling**
 
 ---
 
-## 📁 Project Structure
+# 📂 Project Structure
+
+```bash
+TicTacToe/
+│
+├── Main.java                 # Application entry point
+├── User.java                 # User data model
+├── UserManager.java          # Registration, login & data persistence
+├── SoundManager.java         # Handles all sound effects
+├── GameLogic.java            # Core game rules & win/draw detection
+├── AIPlayer.java             # AI opponent (Easy / Medium / Hard)
+├── AchievementManager.java   # Badge & achievement system
+├── GradientPanel.java        # Reusable animated background
+├── LoginFrame.java           # Login window
+├── RegisterFrame.java        # Registration window
+├── MainMenuFrame.java        # Main menu navigation
+├── GameFrame.java            # Main game board & scoreboard
+├── ShopFrame.java            # Shop / Buy system
+├── ProfileFrame.java         # User profile & badges
+├── LeaderboardFrame.java     # Player rankings
+│
+├── users.dat                 # Auto-generated save file```
+
+---
+
+# 🚀 How to Run
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/tic-tac-toe.git
+```
+
+## 2️⃣ Open the Project
+
+Open the project in:
+
+* IntelliJ IDEA
+* Eclipse
+* NetBeans
+* VS Code (Java Extension)
+
+## 3️⃣ Compile and Run
+
+### Using Terminal
+
+```bash
+javac Main.java
+java Main
+```
+
+
+
+---
+
+# 🎯 Gameplay Modes
+
+| Mode        | Description                      |
+| ----------- | -------------------------------- |
+| Two Player  | Play locally with another player |
+| Multiplayer | Compete with multiple users      |
+| AI Easy     | Beginner AI                      |
+| AI Medium   | Balanced AI                      |
+| AI Hard     | Smart AI with advanced logic     |
+
+---
+
+# 🧠 OOP Concepts Used
+
+* Classes & Objects
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Abstraction
+
+---
+
+# 💾 Save System
+
+The game supports:
+
+* Saving Player Data
+* Saving Scores
+* Save & Continue Gameplay
+* User Progress Tracking
+
+---
+
+# 📸 Screenshots
+
+*Add your project screenshots here*
+
+```md
+![Registration Page]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230506.png")
+![Login Page]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230411.png")
+![Home]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230550.png")
+![Game UI]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230618.png")
+![Shop]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230658.png")
+![Leaderboard]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230739.png")
+
+
+```
+
+---
+
+
+---
+
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Developer
+
+Developed by using Sushanta Ranjan Sushil.
+
+If you like this project, give it a ⭐ on GitHub!
