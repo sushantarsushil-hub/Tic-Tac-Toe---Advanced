@@ -167,7 +167,6 @@ The game supports:
 
 
 
-```
 
 ---
 
