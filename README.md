@@ -157,9 +157,7 @@ The game supports:
 
 # 📸 Screenshots
 
-*Add your project screenshots here*
 
-```md
 ![Registration Page](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%201.png)
 ![Login Page](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%202.png)
 ![Home](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%203.png)
