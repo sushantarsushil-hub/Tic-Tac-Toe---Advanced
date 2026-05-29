@@ -160,12 +160,13 @@ The game supports:
 *Add your project screenshots here*
 
 ```md
-![Registration Page]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230506.png")
-![Login Page]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230411.png")
-![Home]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230550.png")
-![Game UI]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230618.png")
-![Shop]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230658.png")
-![Leaderboard]("C:\Users\88018\Pictures\Screenshots\Screenshot 2026-05-29 230739.png")
+![Registration Page](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%201.png)
+![Login Page](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%202.png)
+![Home](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%203.png)
+![Game UI](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%204.png)
+![Shop](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%205.png)
+![Leaderboar](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%206.png)
+
 
 
 ```
