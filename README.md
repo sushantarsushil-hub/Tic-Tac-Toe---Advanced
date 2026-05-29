@@ -1,554 +1,91 @@
-# 🎮 Tic Tac Toe - Advanced Java Swing Game
+# 🎮 Tic Tac Toe — Java Swing Edition
 
-An advanced and fully interactive **Tic Tac Toe Game** built using **Java Swing GUI**.
-This project is designed with a modern animated user interface, multiplayer support, AI gameplay, authentication system, achievements, sound effects, and many additional features to provide a professional gaming experience.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Swing-GUI-blue?style=for-the-badge" alt="Swing">
+  <img src="https://img.shields.io/badge/Platform-Desktop-green?style=for-the-badge" alt="Platform">
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
+</p>
 
----
-
-# 📌 Features
-
-## 🔐 Authentication System
-
-* User Registration
-* User Login
-* Secure User Management
-* User Profile System
-
-## 🎨 Modern GUI
-
-* Java Swing Based Interface
-* Animated UI Components
-* Interactive Buttons and Panels
-* Smooth User Experience
-
-## 🎮 Gameplay Features
-
-* 3×3 Clickable Game Grid
-* Two Player Mode (X/O)
-* Multiplayer Support
-* AI Player Mode
-* Easy, Medium, and Hard Difficulty Levels
-* Winner Detection
-* Draw Detection
-* Restart Game Option
-* Popup Result Messages
-
-## 🏆 Advanced Systems
-
-* Scoreboard System
-* Achievement / Badge System
-* Leaderboard
-* Save & Continue Feature
-
-## 🛒 Customization System
-
-* Shop / Buy System
-* Purchase Board Themes
-* Unlock Icons
-* Unlock User Avatars
-
-## 🔊 Audio Features
-
-* Button Click Sound
-* Game Start Sound
-* Win Sound Effect
-* Draw Sound Effect
+<p align="center">
+  A modern, feature-rich <b>Tic Tac Toe</b> game built with <b>Java Swing</b> — complete with user accounts, an unbeatable AI, a shop system, achievements, leaderboards, sound effects, and a smooth animated UI.
+</p>
 
 ---
 
-# 🛠️ Technologies Used
+## �the Table of Contents
 
-* **Java**
-* **Java Swing**
-* **AWT**
-* **Object-Oriented Programming (OOP)**
-* **File Handling**
-* **Event Handling**
-
----
-
-# 📂 Project Structure
-
-```bash
-TicTacToe/
-│
-|
-│   ├── Auth/
-│   ├── Game/
-│   ├── AI/
-│   ├── Sound/
-│   ├── Profile/
-│   ├── Shop/
-│   ├── Leaderboard/
-│   └── Utils/
-│
-├── assets/
-│   ├── sounds/
-│   ├── themes/
-│   ├── icons/
-│   └── avatars/
-│
-├── README.md
-└── run.bat
-```
+- [Overview](#-overview)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [How to Play](#-how-to-play)
+- [Game Modes & Difficulty](#-game-modes--difficulty)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
 
 ---
 
-# 🚀 How to Run
+## 📖 Overview
 
-## 1️⃣ Clone the Repository
+**Tic Tac Toe — Java Swing Edition** is more than just the classic 3×3 grid game.  
+It is a full-fledged desktop application featuring **user authentication, persistent profiles, in-game currency, a shop, achievements, and an unbeatable AI opponent** powered by the Minimax algorithm.
 
-```bash
-git clone https://github.com/your-username/tic-tac-toe.git
-```
-
-## 2️⃣ Open the Project
-
-Open the project in:
-
-* IntelliJ IDEA
-* Eclipse
-* NetBeans
-* VS Code (Java Extension)
-
-## 3️⃣ Compile and Run
-
-### Using Terminal
-
-```bash
-javac Main.java
-java Main
-```
-
-### Using run.bat (Windows)
-
-Simply double-click:
-
-```bash
-run.bat
-```
+This project demonstrates clean **Object-Oriented Programming (OOP)** principles, GUI development with **Java Swing**, file-based data persistence, and engaging animated user interfaces — making it an ideal showcase project for learning desktop application development in Java.
 
 ---
 
-# 🎯 Gameplay Modes
+## ✨ Features
 
-| Mode        | Description                      |
-| ----------- | -------------------------------- |
-| Two Player  | Play locally with another player |
-| Multiplayer | Compete with multiple users      |
-| AI Easy     | Beginner AI                      |
-| AI Medium   | Balanced AI                      |
-| AI Hard     | Smart AI with advanced logic     |
-
----
-
-# 🧠 OOP Concepts Used
-
-* Classes & Objects
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-
----
-
-# 💾 Save System
-
-The game supports:
-
-* Saving Player Data
-* Saving Scores
-* Save & Continue Gameplay
-* User Progress Tracking
+| # | Feature | Description |
+|---|---------|-------------|
+| 🖥️ | **GUI-Based Game** | Built entirely with Java Swing for a smooth desktop experience |
+| 📝 | **Registration** | Create a new account to track your progress |
+| 🔐 | **Login System** | Secure login with saved credentials |
+| 🔲 | **3×3 Clickable Grid** | Intuitive, responsive button-based game board |
+| 👥 | **Two Player Mode** | Play locally with a friend (X vs O) |
+| 🤖 | **AI Player Mode** | Challenge the computer opponent |
+| 🎚️ | **Difficulty Levels** | Easy, Medium & Hard (Hard uses unbeatable Minimax AI) |
+| 🏆 | **Winner & Draw Detection** | Automatic detection of wins and ties |
+| 💬 | **Popup Result Messages** | Clear win/draw notifications |
+| 🔄 | **Restart Button** | Instantly reset and replay |
+| 📊 | **Scoreboard** | Live session score tracking |
+| 🎖️ | **Achievement / Badge System** | Unlock badges as you progress |
+| 🛒 | **Shop / Buy System** | Spend coins on board themes, icons & avatars |
+| 🔊 | **Sound Effects** | Audio for clicks, wins, draws & game start |
+| 👤 | **User Profile System** | View stats, badges, and owned items |
+| 💾 | **Save & Continue** | Progress is automatically saved |
+| 🥇 | **Leaderboard** | Compete for the top rank globally |
+| 🎨 | **Animated UI** | Gradient backgrounds & smooth animations |
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-# 🎮 Tic Tac Toe - Advanced Java Swing Game
+> _Add your game screenshots here_
 
-An advanced and fully interactive **Tic Tac Toe Game** built using **Java Swing GUI**.
-This project is designed with a modern animated user interface, multiplayer support, AI gameplay, authentication system, achievements, sound effects, and many additional features to provide a professional gaming experience.
+| Login Screen | Main Menu | Game Board |
+|:---:|:---:|:---:|
+| ![Login](docs/login.png) | ![Menu](docs/menu.png) | ![Game](docs/game.png) |
 
----
-
-# 📌 Features
-
-## 🔐 Authentication System
-
-* User Registration
-* User Login
-* Secure User Management
-* User Profile System
-
-## 🎨 Modern GUI
-
-* Java Swing Based Interface
-* Animated UI Components
-* Interactive Buttons and Panels
-* Smooth User Experience
-
-## 🎮 Gameplay Features
-
-* 3×3 Clickable Game Grid
-* Two Player Mode (X/O)
-* Multiplayer Support
-* AI Player Mode
-* Easy, Medium, and Hard Difficulty Levels
-* Winner Detection
-* Draw Detection
-* Restart Game Option
-* Popup Result Messages
-
-## 🏆 Advanced Systems
-
-* Scoreboard System
-* Achievement / Badge System
-* Leaderboard
-* Save & Continue Feature
-
-## 🛒 Customization System
-
-* Shop / Buy System
-* Purchase Board Themes
-* Unlock Icons
-* Unlock User Avatars
-
-## 🔊 Audio Features
-
-* Button Click Sound
-* Game Start Sound
-* Win Sound Effect
-* Draw Sound Effect
+| Shop | Profile | Leaderboard |
+|:---:|:---:|:---:|
+| ![Shop](docs/shop.png) | ![Profile](docs/profile.png) | ![Leaderboard](docs/leaderboard.png) |
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-* **Java**
-* **Java Swing**
-* **AWT**
-* **Object-Oriented Programming (OOP)**
-* **File Handling**
-* **Event Handling**
-
----
-
-# 📂 Project Structure
-
-```bash
-TicTacToe/
-│
-├── src/
-│   ├── Auth/
-│   ├── Game/
-│   ├── AI/
-│   ├── Sound/
-│   ├── Profile/
-│   ├── Shop/
-│   ├── Leaderboard/
-│   └── Utils/
-│
-├── assets/
-│   ├── sounds/
-│   ├── themes/
-│   ├── icons/
-│   └── avatars/
-│
-├── README.md
-└── run.bat
-```
+- **Language:** Java (JDK 8+)
+- **GUI Framework:** Java Swing & AWT
+- **Audio:** `javax.sound.sampled` (WAV files)
+- **Data Persistence:** Java Serialization (`ObjectOutputStream` / `ObjectInputStream`)
+- **AI Algorithm:** Minimax (for unbeatable Hard mode)
 
 ---
 
-# 🚀 How to Run
-
-## 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/tic-tac-toe.git
-```
-
-## 2️⃣ Open the Project
-
-Open the project in:
-
-* IntelliJ IDEA
-* Eclipse
-* NetBeans
-* VS Code (Java Extension)
-
-## 3️⃣ Compile and Run
-
-### Using Terminal
-
-```bash
-javac Main.java
-java Main
-```
-
-### Using run.bat (Windows)
-
-Simply double-click:
-
-```bash
-run.bat
-```
-
----
-
-# 🎯 Gameplay Modes
-
-| Mode        | Description                      |
-| ----------- | -------------------------------- |
-| Two Player  | Play locally with another player |
-| Multiplayer | Compete with multiple users      |
-| AI Easy     | Beginner AI                      |
-| AI Medium   | Balanced AI                      |
-| AI Hard     | Smart AI with advanced logic     |
-
----
-
-# 🧠 OOP Concepts Used
-
-* Classes & Objects
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-
----
-
-# 💾 Save System
-
-The game supports:
-
-* Saving Player Data
-* Saving Scores
-* Save & Continue Gameplay
-* User Progress Tracking
-
----
-
-# 📸 Screenshots
-
-
-
-```md
-# 🎮 Tic Tac Toe - Advanced Java Swing Game
-
-An advanced and fully interactive **Tic Tac Toe Game** built using **Java Swing GUI**.
-This project is designed with a modern animated user interface, multiplayer support, AI gameplay, authentication system, achievements, sound effects, and many additional features to provide a professional gaming experience.
-
----
-
-# 📌 Features
-
-## 🔐 Authentication System
-
-* User Registration
-* User Login
-* Secure User Management
-* User Profile System
-
-## 🎨 Modern GUI
-
-* Java Swing Based Interface
-* Animated UI Components
-* Interactive Buttons and Panels
-* Smooth User Experience
-
-## 🎮 Gameplay Features
-
-* 3×3 Clickable Game Grid
-* Two Player Mode (X/O)
-* Multiplayer Support
-* AI Player Mode
-* Easy, Medium, and Hard Difficulty Levels
-* Winner Detection
-* Draw Detection
-* Restart Game Option
-* Popup Result Messages
-
-## 🏆 Advanced Systems
-
-* Scoreboard System
-* Achievement / Badge System
-* Leaderboard
-* Save & Continue Feature
-
-## 🛒 Customization System
-
-* Shop / Buy System
-* Purchase Board Themes
-* Unlock Icons
-* Unlock User Avatars
-
-## 🔊 Audio Features
-
-* Button Click Sound
-* Game Start Sound
-* Win Sound Effect
-* Draw Sound Effect
-
----
-
-# 🛠️ Technologies Used
-
-* **Java**
-* **Java Swing**
-* **AWT**
-* **Object-Oriented Programming (OOP)**
-* **File Handling**
-* **Event Handling**
-
----
-
-# 📂 Project Structure
-
-```bash
-TicTacToe/
-│
-├── src/
-│   ├── Auth/
-│   ├── Game/
-│   ├── AI/
-│   ├── Sound/
-│   ├── Profile/
-│   ├── Shop/
-│   ├── Leaderboard/
-│   └── Utils/
-│
-├── assets/
-│   ├── sounds/
-│   ├── themes/
-│   ├── icons/
-│   └── avatars/
-│
-├── README.md
-└── run.bat
-```
-
----
-
-# 🚀 How to Run
-
-## 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/tic-tac-toe.git
-```
-
-## 2️⃣ Open the Project
-
-Open the project in:
-
-* IntelliJ IDEA
-* Eclipse
-* NetBeans
-* VS Code (Java Extension)
-
-## 3️⃣ Compile and Run
-
-### Using Terminal
-
-```bash
-javac Main.java
-java Main
-```
-
-### Using run.bat (Windows)
-
-Simply double-click:
-
-```bash
-run.bat
-```
-
----
-
-# 🎯 Gameplay Modes
-
-| Mode        | Description                      |
-| ----------- | -------------------------------- |
-| Two Player  | Play locally with another player |
-| Multiplayer | Compete with multiple users      |
-| AI Easy     | Beginner AI                      |
-| AI Medium   | Balanced AI                      |
-| AI Hard     | Smart AI with advanced logic     |
-
----
-
-# 🧠 OOP Concepts Used
-
-* Classes & Objects
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-
----
-
-# 💾 Save System
-
-The game supports:
-
-* Saving Player Data
-* Saving Scores
-* Save & Continue Gameplay
-* User Progress Tracking
-
----
-
-# 📸 Screenshots
-
-*Add your project screenshots here*
-
-```md
-![Game UI](screenshots/game-ui.png)
-![Login Page](screenshots/login.png)
-![Leaderboard](screenshots/leaderboard.png)
-```
-
----
-
-# 🔮 Future Improvements
-
-* Online Multiplayer
-* Database Integration
-* Cloud Save System
-* More Themes and Avatars
-* Mobile Version
-* Voice Chat Support
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
----
-
-# 📜 License
-
-This project is licensed under the MIT License.
-
----
-
-# 👨‍💻 Developer
-
-Developed with ❤️ using Java Swing.
-
-If you like this project, give it a ⭐ on GitHub!
-
-```
-
-
-
-If you like this project, give it a ⭐ on GitHub!
+## 📁 Project Structure
