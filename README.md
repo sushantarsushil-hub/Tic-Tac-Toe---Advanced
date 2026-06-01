@@ -97,7 +97,7 @@ TicTacToe/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe.git
+git clone https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced
 ```
 
 ## 2️⃣ Open the Project
