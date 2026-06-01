@@ -158,8 +158,8 @@ The game supports:
 # 📸 Screenshots
 
 
-![Registration Page](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%201.png)
-![Login Page](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%202.png)
+![Registration Page]()
+![Login Page](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/981dc7b8685e7c114f3c1aab3eaf79ce13affb17/Ja%202.png)
 ![Home](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%203.png)
 ![Game UI](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%204.png)
 ![Shop](https://github.com/sushantarsushil-hub/Tic-Tac-Toe---Advanced/blob/41970eef55b914912d3a9b2693bc0b61ba2a06a2/J%205.png)
